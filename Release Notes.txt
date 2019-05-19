@@ -1,0 +1,35 @@
+Release Notes Projeto ZeroTwo
+
+
+DESAFIO MENSAL - NODEJS DEVELOPERS
+
+Desenvolver uma API de metas! (Goals API)
+
+REQUISITOS:
+
+- Cadastro de Usuário; (name, email e password)
+- Autenticação de Usuário; (email e password)
+- Permitir alteração de nome e senha de um usuário autenticado;
+
+- Cadastro de Categorias (user_id, description);
+- Cadastro de Metas (user_id, title, description, category_id, is_done  e limit_date);
+
+
+INFORMAÇÕES ADICIONAIS:
+
+- Após autenticação de usuário, a api deve gerar um token de acesso (JWT) e devolver ao usuário para que o mesmo possa utilizar para acessar as demais rotas;
+- O usuário somente pode alterar o próprio cadastro e pode ter acesso apenas às suas informações (perfil, metas e categorias);
+- Todas as rotas devem ser protegidas por acesso via token, exceto a rota de cadastro de usuário e de autenticação;
+
+
+IMPORTANTE:
+
+- Documentar (de forma simples) a API (arquivo README.md na raíz do projeto);
+- Utilizar o GIT PARA VERSIONAMENTO (CRIAR UM repositório público no Github);
+- Utilizar Mongoose para trabalhar com MongoDB;
+
+
+DATA LIMITE: 31/05/2019
+ENVIAR O LINK DO REPOSITÓRIO PARA: email@thiagodesouza.com.br
+
+Abraços e boa sorte!
